@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Account Details</h1>
+
+    <br/>
+<div >
+Username:  <h3 class="box test1"> {{current_user.username}}</h3>
+
+    <br/>
+
+email:  <h3 class="box test1"> {{current_user.email}}</h3>
+    </div>
+{% endblock content %}
